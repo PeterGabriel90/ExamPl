@@ -28,7 +28,7 @@ namespace ExamPl
             }
             else
             {
-                lblMensaje.Text = "El Usuario y Contraseña son incorrectos";
+                lblMensaje.Text = "El Usuario y Contraseña son Incorrectos";
             }
         }
     }
