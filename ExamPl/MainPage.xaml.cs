@@ -32,7 +32,7 @@ namespace ExamPl
             }
             else
             {
-                DisplayAlert("error", "La cuota ingresada supera al monto del curso ingresela de nuevo porfavor", "ok");
+                DisplayAlert("Error", "La cuota ingresada supera al monto del curso ingresela de nuevo porfavor", "ok");
             }
         }
 
