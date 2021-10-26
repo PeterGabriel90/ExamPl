@@ -5,8 +5,13 @@
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-                <Label Text="Biemvenido usuario" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+                <Label Text="Biemvenido Estudiante" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
             </Frame>
+            <Grid>
+
+                <Image Source="uisrael.jpg" WidthRequest="150" HeightRequest="150"/>
+
+            </Grid>
             <Entry x:Name="txtusuario" Placeholder="Ingrese su Usuario"/>
             <Entry x:Name="txtcontraseña" Placeholder="Ingrese su Contraseña" IsPassword="True"/>
             <Button x:Name="btnAbrir" Text="Ingresar" Clicked="btnAbrir_Clicked"/>

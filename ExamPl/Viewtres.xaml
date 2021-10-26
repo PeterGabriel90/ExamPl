@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
-                <Label Text="Resumen Registro" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+                <Label Text="Informacion de Pago" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
             </Frame>
 
             <Grid>
@@ -19,13 +19,13 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Label Text="Mostrar Usuario Conectado" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="Estudiante Conectado" Grid.Row="0" Grid.Column="0"/>
                 <Entry x:Name="txtUsuarioR" Keyboard="Text" Grid.Row="0" Grid.Column="1"/>
 
-                <Label Text="Mostrar el Nombre" Grid.Row="1" Grid.Column="0"/>
+                <Label Text="Nombre" Grid.Row="1" Grid.Column="0"/>
                 <Entry x:Name="txtNombreR" Keyboard="Text" Grid.Row="1" Grid.Column="1"/>
 
-                <Label Text="Mostrar Total a Pagar" Grid.Row="2" Grid.Column="0"/>
+                <Label Text="Pago Total" Grid.Row="2" Grid.Column="0"/>
                 <Entry x:Name="txtPagoR" Keyboard="Numeric" Grid.Row="2" Grid.Column="1"/>
 
             </Grid>

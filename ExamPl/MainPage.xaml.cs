@@ -13,7 +13,7 @@ namespace ExamPl
         public MainPage(string usuario)
         {
             InitializeComponent();
-            lblUsuario.Text = "Usuario: " + usuario;
+            lblUsuario.Text = usuario;
             
         }
 
